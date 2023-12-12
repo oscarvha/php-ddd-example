@@ -37,7 +37,7 @@ destroy:
 
 rebuild:
 	docker compose build --pull --force-rm --no-cache
-	make install
+	make composer-install
 	make start
 
 ping-mysql:
